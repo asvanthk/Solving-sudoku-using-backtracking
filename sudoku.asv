@@ -1,0 +1,13 @@
+function [X,C,s,e] = sudoku(X) 
+% SUDOKU  Solve Sudoku using recursive backtracking. 
+%   sudoku(X), expects a 9-by-9 array X. 
+ % Fill in all “singletons”. 
+ % C is a cell array of candidate vectors for each cell. 
+ % s is the first cell, if any, with one candidate. 
+ % e is the first cell, if any, with no candidates. 
+ %[C,s,e] = candidates_2(X); 
+ C = 
+%  while ~isempty(s) && isempty(e) 
+%     X(s) = C{s}; 
+%     [C,s,e] = candidate(X); 
+ end 
